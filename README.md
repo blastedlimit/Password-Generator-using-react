@@ -1,16 +1,50 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple password generator built with React. Choose a password length, include numbers or special characters, and copy the generated password. You can also change the page's background color.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Generate a password automatically when the app opens.
+- Choose a password length from 6 to 100 characters.
+- Optionally include numbers and special characters.
+- Copy the generated password to the clipboard.
+- Change the background color with the color buttons.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Requirements
 
-## Expanding the Oxlint configuration
+- Node.js and npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Install and run
+
+```bash
+git clone https://github.com/blastedlimit/React-Practice.git
+cd React-Practice/PasswordGenerator
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite in your browser.
+
+## Available Scripts
+
+Run these commands from the `PasswordGenerator` directory:
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server. |
+| `npm run build` | Build the app for production in `dist/`. |
+| `npm run preview` | Preview the production build locally. |
+| `npm run lint` | Run Oxlint. |
+
+## Built With
+
+- React
+- Vite
+- Tailwind CSS
+- Lucide React
+
+## About
+
+This is my first React project, made as a hands-on way to practice React state, effects, callbacks, and refs.
